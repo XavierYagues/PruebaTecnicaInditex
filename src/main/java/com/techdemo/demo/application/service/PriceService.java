@@ -16,6 +16,6 @@ public class PriceService {
     }
 
     public Optional<Price> getApplicablePrice(Long productId, Long brandId, LocalDateTime applicationDate) {
-        return priceRepository.findApplicablePrice(productId, brandId, applicationDate);
+        return null;
     }
 }

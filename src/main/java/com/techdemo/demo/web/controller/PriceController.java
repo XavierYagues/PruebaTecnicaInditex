@@ -19,7 +19,6 @@ public class PriceController {
 
     @GetMapping("/prices")
     public Optional<Price> getPrice(@RequestParam Long productId, @RequestParam Long brandId, @RequestParam String applicationDate) {
-        LocalDateTime date = LocalDateTime.parse(applicationDate);
-        return priceService.getApplicablePrice(productId, brandId, date);
+        return null;
     }
 }
