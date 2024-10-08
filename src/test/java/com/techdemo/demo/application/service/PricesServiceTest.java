@@ -4,9 +4,7 @@ import com.techdemo.demo.domain.model.Prices;
 import com.techdemo.demo.domain.repository.PricesRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.mockito.Mockito;
 
-import java.math.BigDecimal;
 import java.time.LocalDateTime;
 import java.util.List;
 import java.util.Optional;
