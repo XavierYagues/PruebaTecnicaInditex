@@ -1,5 +1,0 @@
-com\techdemo\demo\domain\repository\PriceRepository.class
-com\techdemo\demo\application\service\PriceService.class
-com\techdemo\demo\web\controller\PriceController.class
-com\techdemo\demo\domain\model\Price.class
-com\techdemo\demo\DemoApplication.class
